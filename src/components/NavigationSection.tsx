@@ -212,7 +212,7 @@ const NavigationSection = () => {
                   AR Pathfinding
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  See floating arrows and directions overlaid on your camera view. Never get lost in the store again.
+                  Follow AR arrows and directions overlaid on your camera. Find items 40% faster.
                 </p>
                 <div className="bg-muted/20 rounded-lg p-3 border-l-4 border-primary">
                   <p className="text-sm">
@@ -227,7 +227,7 @@ const NavigationSection = () => {
                   Real-Time Updates
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Your cart updates automatically as you pick up items. Get notified of better deals or out-of-stock alternatives.
+                  Your cart syncs automatically as you shop. Get instant notifications about deals and alternatives.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between text-sm">
@@ -251,7 +251,7 @@ const NavigationSection = () => {
                   Smart Checkout
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Skip the lines with Scan & Go or get directed to the fastest checkout lane.
+                  Skip the lines with mobile checkout or get directed to the fastest available lane.
                 </p>
                 <div className="flex gap-2">
                   <Badge variant="secondary" className="text-xs">Scan & Go Ready</Badge>
@@ -264,12 +264,12 @@ const NavigationSection = () => {
           {/* Call to action */}
           <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Card className="p-8 bg-gradient-to-r from-primary/10 to-walmart-blue/10 border border-primary/20 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Ready to Experience the Future?</h3>
+              <h3 className="text-2xl font-bold mb-4">Start Shopping Smarter Today</h3>
               <p className="text-muted-foreground mb-6">
-                Join the shopping revolution. Your personal AI concierge is waiting.
+                Join millions of customers who save time and money with SmartCart.
               </p>
               <Button size="lg" className="bg-gradient-to-r from-primary to-walmart-blue hover:from-primary-glow hover:to-primary">
-                Download SmartCart App
+                Download SmartCart
               </Button>
             </Card>
           </div>

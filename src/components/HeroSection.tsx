@@ -62,7 +62,7 @@ const HeroSection = () => {
         {/* CTA */}
         <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <Button size="lg" className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-primary-glow hover:from-primary-glow hover:to-primary transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Watch the Demo
+            Get Started Now
           </Button>
         </div>
       </div>

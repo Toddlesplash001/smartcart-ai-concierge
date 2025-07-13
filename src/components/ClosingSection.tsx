@@ -84,31 +84,31 @@ const ClosingSection = () => {
             </Card>
           </div>
 
-          {/* Team and links */}
+          {/* Company info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-border/50">
               <div className="flex items-center gap-3 mb-4">
                 <Users className="w-6 h-6 text-primary" />
-                <h4 className="font-semibold">Our Team</h4>
+                <h4 className="font-semibold">Leadership Team</h4>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
                 World-class team dedicated to transforming the shopping experience.
               </p>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">AI/ML Engineer</span>
+                  <span className="text-muted-foreground">CEO</span>
                   <span>Sarah Chen</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">UX Designer</span>
+                  <span className="text-muted-foreground">CTO</span>
                   <span>Marcus Rodriguez</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Full-Stack Dev</span>
+                  <span className="text-muted-foreground">VP Product</span>
                   <span>Priya Patel</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Product Lead</span>
+                  <span className="text-muted-foreground">VP Engineering</span>
                   <span>James Thompson</span>
                 </div>
               </div>
@@ -117,22 +117,22 @@ const ClosingSection = () => {
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-border/50">
               <div className="flex items-center gap-3 mb-4">
                 <Github className="w-6 h-6 text-primary" />
-                <h4 className="font-semibold">Technical Details</h4>
+                <h4 className="font-semibold">Company Resources</h4>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
                 Enterprise-ready solution with comprehensive documentation and support.
               </p>
               <div className="space-y-3">
                 <Button variant="outline" size="sm" className="w-full justify-between">
-                  View on GitHub
+                  About Us
                   <ArrowRight className="w-4 h-4" />
                 </Button>
                 <Button variant="outline" size="sm" className="w-full justify-between">
-                  Technical Documentation
+                  Customer Support
                   <ArrowRight className="w-4 h-4" />
                 </Button>
                 <Button variant="outline" size="sm" className="w-full justify-between">
-                  API Specifications
+                  Partner Program
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </div>
@@ -142,17 +142,17 @@ const ClosingSection = () => {
           {/* Final CTA */}
           <div className="animate-fade-in" style={{ animationDelay: '1s' }}>
             <div className="mb-6">
-              <h3 className="text-3xl font-bold mb-3">Ready to Transform Retail?</h3>
+              <h3 className="text-3xl font-bold mb-3">Start Shopping Smarter</h3>
               <p className="text-lg text-muted-foreground">
-                Let's bring conversational AI to every Walmart customer.
+                Download SmartCart and transform your shopping experience today.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-walmart-blue hover:from-primary-glow hover:to-primary shadow-lg">
-                Schedule a Demo
+                Download Now
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Learn More
+                View Pricing
               </Button>
             </div>
           </div>

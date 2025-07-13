@@ -160,7 +160,7 @@ const VoiceSection = () => {
                 Natural Language Input
               </h3>
               <p className="text-muted-foreground mb-4">
-                Speak naturally about your shopping needs. No keywords or complex commands required.
+                Speak naturally about your shopping needs. SmartCart understands every word.
               </p>
               <div className="bg-muted/20 rounded-lg p-3 border-l-4 border-primary">
                 <p className="text-sm font-mono">
@@ -175,7 +175,7 @@ const VoiceSection = () => {
                 AI Understanding
               </h3>
               <p className="text-muted-foreground mb-4">
-                Our AI extracts intent, constraints, and context to build the perfect shopping list.
+                SmartCart instantly understands your needs and builds the perfect shopping list.
               </p>
               <div className="space-y-2">
                 <div className="flex items-center justify-between text-sm">
@@ -199,7 +199,7 @@ const VoiceSection = () => {
                 Instant Cart Creation
               </h3>
               <p className="text-muted-foreground">
-                Get a complete shopping cart with personalized recommendations, deals, and alternatives.
+                Your complete shopping cart appears instantly with the best deals and recommendations.
               </p>
             </Card>
           </div>

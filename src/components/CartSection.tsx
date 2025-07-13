@@ -241,10 +241,10 @@ const CartSection = () => {
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:from-primary-glow hover:to-primary">
-              Add to Cart & Continue Shopping
+              Add to Cart
             </Button>
             <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Navigate In-Store
+              Start Shopping
             </Button>
           </div>
         </div>
