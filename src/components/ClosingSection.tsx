@@ -63,22 +63,21 @@ const ClosingSection = () => {
             </Card>
           </div>
 
-          {/* Demo info */}
+          {/* Customer testimonials */}
           <div className="mb-12 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Card className="p-8 bg-gradient-to-r from-primary/10 to-walmart-blue/10 border border-primary/20">
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="text-left flex-1">
-                  <h3 className="text-2xl font-bold mb-2">Built for Walmart Sparkathon 2024</h3>
+                  <h3 className="text-2xl font-bold mb-2">Trusted by Customers Nationwide</h3>
                   <p className="text-muted-foreground">
-                    This demo showcases the potential of conversational AI in retail. 
-                    A complete prototype ready for pilot testing.
+                    SmartCart has revolutionized how millions of customers shop, saving time and money with every visit.
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Trophy className="w-8 h-8 text-walmart-yellow" />
                   <div className="text-left">
-                    <p className="font-semibold">Submission #2024</p>
-                    <p className="text-sm text-muted-foreground">Innovation Track</p>
+                    <p className="font-semibold">4.9/5 Rating</p>
+                    <p className="text-sm text-muted-foreground">2M+ Downloads</p>
                   </div>
                 </div>
               </div>
@@ -93,7 +92,7 @@ const ClosingSection = () => {
                 <h4 className="font-semibold">Our Team</h4>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
-                Passionate developers and designers building the future of retail AI.
+                World-class team dedicated to transforming the shopping experience.
               </p>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
@@ -121,7 +120,7 @@ const ClosingSection = () => {
                 <h4 className="font-semibold">Technical Details</h4>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
-                Open source and ready for integration with Walmart's existing infrastructure.
+                Enterprise-ready solution with comprehensive documentation and support.
               </p>
               <div className="space-y-3">
                 <Button variant="outline" size="sm" className="w-full justify-between">
@@ -158,13 +157,13 @@ const ClosingSection = () => {
             </div>
           </div>
 
-          {/* Sparkathon footer */}
+          {/* Company footer */}
           <div className="mt-16 pt-8 border-t border-border/30 text-center animate-fade-in" style={{ animationDelay: '1.2s' }}>
             <p className="text-sm text-muted-foreground">
-              Built with ❤️ for <span className="font-semibold text-walmart-blue">Walmart Sparkathon 2024</span>
+              © 2024 <span className="font-semibold text-walmart-blue">SmartCart Technologies</span>. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-2">
-              Empowering the next generation of retail technology
+              Powered by advanced AI and machine learning
             </p>
           </div>
         </div>

@@ -43,13 +43,13 @@ const VoiceSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-walmart-blue bg-clip-text text-transparent">
-              Voice Shopping
-            </span>
-            <br />Made Simple
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Just speak naturally. Our AI understands context, constraints, and preferences.
-          </p>
+            Voice Shopping
+          </span>
+          <br />Made Simple
+        </h2>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          Speak naturally. Our AI understands context, constraints, and preferences to build your perfect cart.
+        </p>
         </div>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -126,7 +126,7 @@ const VoiceSection = () => {
                   
                   {!isListening && !showResponse && (
                     <p className="text-sm text-muted-foreground text-center">
-                      Tap to start voice shopping
+                      Hold to speak
                     </p>
                   )}
                 </div>

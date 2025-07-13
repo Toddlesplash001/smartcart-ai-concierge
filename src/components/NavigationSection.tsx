@@ -80,9 +80,9 @@ const NavigationSection = () => {
             </span>
             <br />In-Store Experience
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Your cart follows you everywhere. Get guided to each item with AR navigation and real-time updates.
-          </p>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          AR-powered navigation guides you through the store with optimized routes and real-time inventory updates.
+        </p>
         </div>
 
         <div className="max-w-7xl mx-auto">

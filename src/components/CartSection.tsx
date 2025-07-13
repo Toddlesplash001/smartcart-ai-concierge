@@ -92,9 +92,9 @@ const CartSection = () => {
             </span>
             <br />Built Instantly
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            AI analyzed your request and built the perfect cart with deals, bundles, and personalized recommendations.
-          </p>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          Personalized recommendations, smart bundles, and real-time pricing to maximize your savings.
+        </p>
         </div>
 
         <div className="max-w-7xl mx-auto">
