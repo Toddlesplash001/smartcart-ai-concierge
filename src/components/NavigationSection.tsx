@@ -262,17 +262,7 @@ const NavigationSection = () => {
           </div>
 
           {/* Call to action */}
-          <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <Card className="p-8 bg-gradient-to-r from-primary/10 to-walmart-blue/10 border border-primary/20 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Start Shopping Smarter Today</h3>
-              <p className="text-muted-foreground mb-6">
-                Join millions of customers who save time and money with SmartCart.
-              </p>
-              <Button size="lg" className="bg-gradient-to-r from-primary to-walmart-blue hover:from-primary-glow hover:to-primary">
-                Download SmartCart
-              </Button>
-            </Card>
-          </div>
+          
         </div>
       </div>
     </section>

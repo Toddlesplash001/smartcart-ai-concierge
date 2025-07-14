@@ -60,19 +60,19 @@ const HeroSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
+        {/* <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <Button size="lg" className="text-lg px-8 py-4 bg-gradient-to-r from-primary to-primary-glow hover:from-primary-glow hover:to-primary transition-all duration-300 transform hover:scale-105 shadow-lg">
             Get Started Now
           </Button>
-        </div>
+        </div> */}
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
